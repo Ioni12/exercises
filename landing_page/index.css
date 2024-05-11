@@ -18,6 +18,7 @@ body
 }
 .header .h-1
 {
+    
     flex: 1;
     font-size: 19px;
     color: white;
@@ -33,6 +34,7 @@ body
     text-align: center;
     position: static;
     font-family: 'Times New Roman', Times, serif;
+    padding-top: 8px;
     
 }
 .header div div
@@ -63,8 +65,61 @@ body
 .second
 {
     background-color: white;
-    height: 300px;
+    height: 900px;
     width: 100%;
     margin: 0px 0;
     overflow: visible;
+}
+.s-container
+{
+    display: flex;
+    
+}
+#that
+{
+    text-align: center;
+    padding: 10px;
+    font-size: 29px;
+}
+.s-container div
+{
+    height: 100px;
+    flex: 1;
+    border: solid blue;
+    margin: 14px;
+    margin-bottom: 0px;;
+    border-radius: 10px;
+}
+
+.s-container1
+{
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    
+}
+.s-container1 div
+{
+    height: 100px;
+    flex: 1;
+    margin-top: 0px;
+    margin-left: 17px;
+    text-align: center;  
+    box-sizing: border-box;
+}
+
+.third
+{
+    height: 300px;
+    background-color: rgb(192, 186, 178);
+    margin-top: 0px;
+    padding-top: 0px;
+    text-align: center;
+    
+}
+.third p
+{
+    padding-top: 100px;
 }
