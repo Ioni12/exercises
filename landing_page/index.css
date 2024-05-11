@@ -1,0 +1,70 @@
+body
+{
+        background-color: #1f2937;
+        margin: 0;
+        padding: 0;
+        height: 100%;
+      
+}
+.container .header 
+{
+    display: flex;
+}
+
+.header div
+{
+    height: 30px;
+    flex: 1;
+}
+.header .h-1
+{
+    flex: 1;
+    font-size: 19px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.header 
+{
+    flex: 0.7;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    position: static;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.header div div
+{
+    text-align: center;
+}
+
+.container2
+{
+    display: flex;
+    margin: 38px;
+    
+}
+
+.container2 div
+{
+    height: 200px;
+    flex: 1;
+    color: white
+}
+.container2 div p
+{
+    font-size: small;
+    color: rgb(206, 207, 207);
+    margin-top: 0%;
+}
+
+.second
+{
+    background-color: white;
+    height: 300px;
+    width: 100%;
+    margin: 0px 0;
+    overflow: visible;
+}
